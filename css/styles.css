@@ -51,7 +51,7 @@ body {
 
 .hero-below {
   margin-top: 60px;
-  margin-bottom:60px;
+  margin-bottom: 60px;
 }
 
 .toggle {
@@ -64,6 +64,13 @@ body {
 .emp {
   font-size: 1.25em;
   font-weight: bold;
+}
+
+.flt-img {
+  float: left;
+  width: 42px;
+  height: auto;
+  margin-right: 42px;
 }
 
 
