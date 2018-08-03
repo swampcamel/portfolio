@@ -1,0 +1,49 @@
+/*-- GLOBAL STYLES --*/
+
+body {
+  background-color: #FFCC00;
+}
+
+/*-- BOOTSTRAP MODIFICATIONS --*/
+
+.img-fluid {
+  max-width: none !important;
+  width: 100%;
+}
+
+/*-- ADDED CLASSES --*/
+
+.logo {
+  height: 70%;
+  width: 70%;
+}
+
+.menu-bg {
+  background-color: #FFCC00;
+}
+
+.hero {
+  padding-top: 6%;
+}
+
+.hero-overlay {
+  font-size: 7vw;
+  line-height: 8vw;
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+}
+
+.hero-behind {
+  font-size: 42vw;
+  line-height: 43vw;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  z-index: -10;
+}
+
+.hero-below {
+  margin-top: 200px;
+  background-color: #384242;
+}
