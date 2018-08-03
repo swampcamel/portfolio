@@ -2,7 +2,16 @@
 
 body {
   background-color: #FFCC00;
+  font-family: 'Montserrat', sans-serif;
 }
+h1, h3, h4, h5, h6 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+}
+
 
 /*-- BOOTSTRAP MODIFICATIONS --*/
 
@@ -36,8 +45,9 @@ body {
   font-size: 7vw;
   line-height: 8vw;
   position: absolute;
-  bottom: 30%;
-  left: 5%;
+  bottom: 27%;
+  left: 12%;
+  text-shadow: 1px 1px 1px rgba(255,204,0,0.7);
 }
 
 .hero-behind {
