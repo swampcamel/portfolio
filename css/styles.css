@@ -11,6 +11,11 @@ body {
   width: 100%;
 }
 
+.btn-block {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*-- ADDED CLASSES --*/
 
 .logo {
@@ -44,6 +49,30 @@ body {
 }
 
 .hero-below {
-  margin-top: 200px;
+  margin-top: 60px;
+}
+
+.toggle {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ACCENT COLORS */
+
+.accent-1 {
+  background-color: #CC0000;
+}
+
+.accent-2 {
+  background-color: #171919;
+}
+
+.accent-3 {
   background-color: #384242;
+}
+
+.accent-4 {
+  background-color: #008a8c;
 }
