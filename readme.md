@@ -1,4 +1,4 @@
-# _{Resume / Portfolio Site}_
+# _Resume / Portfolio Site_
 
 #### _Resume and Portfolio of Dan Mace, 08/03/2018_
 
