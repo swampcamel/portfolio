@@ -13,6 +13,15 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light menu-bg">
       <a class="navbar-brand" href="#"><img class="logo" src="img/logo1.png" alt="DBM"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTog" aria-controls="navTog" aria-expanded="false" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navTog">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#hero-below">About</a>
+          <a class="nav-item nav-link" href="#hero-below">Projects</a>
+          <a class="nav-item nav-link" href="#hero-below">Experience</a>
+          <a class="nav-item nav-link" href="#hero-below">Skills</a>
     </nav>
     <div class="container">
       <div class="hero">
@@ -20,7 +29,7 @@
         <img src="img/headshotwide.jpg" class="img-fluid rounded mx-auto d-block" alt="Headshot of Dan Mace">
         <div class="hero-overlay">dan brock<br>mace</div>
       </div>
-      <div class="container hero-below">
+      <div class="container hero-below" id="hero-below">
           <a class="btn btn-dark btn-lg btn-block accent-1" data-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="about">About Myself</a>
           <div class="toggle collapse" id="about">
             <div class="card card-body">
@@ -46,13 +55,145 @@
           <a class="btn btn-dark btn-lg btn-block accent-3" data-toggle="collapse" href="#experience" role="button" aria-expanded="false" aria-controls="about">Experience</a>
           <div class="toggle collapse" id="experience">
             <div class="card card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h3>Work Experience</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Copperfish Media</strong> - <em>3 Years</em> - WordPress Website Designer</li>
+                <li class="list-group-item"><strong>Freelance</strong> - <em> 4 Years - WordPress Web Designer</em></li>
+              </ul>
+              <br>
+              <h3>Education</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Epicodus Code Academy</strong> - <em>July 2018 - Present</em> - Front-End Development Coding Bootcamp</li>
+                <li class="list-group-item"><strong>University of Utah</strong> - <em>2006-2010</em> - Undergraduate of Film Studies, FA</li>
+              </ul>
             </div>
           </div>
           <a class="btn btn-dark btn-lg btn-block accent-2" data-toggle="collapse" href="#skills" role="button" aria-expanded="false" aria-controls="skills">Skills</a>
         <div class="toggle collapse" id="skills">
           <div class="card card-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>Coding Languages</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>HTML:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>CSS:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">86%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>JavaScript:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 24%;" aria-valuenow="24" aria-valuemin="0" aria-valuemax="100">24%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>C#:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <br>
+            <h3>Frameworks</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>Bootstrap:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100">76%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>Materialize:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 81%;" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">81%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <br>
+            <h3>JavaScript Libraries</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>jQuery:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <strong>ReactJS:</strong>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
