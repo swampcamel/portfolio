@@ -15,6 +15,7 @@ body {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3px;
 }
 /*-- ADDED CLASSES --*/
 
@@ -56,17 +57,18 @@ body {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3px;
 }
 
 
 /* ACCENT COLORS */
 
 .accent-1 {
-  background-color: #CC0000;
+  background-color: #911007;
 }
 
 .accent-2 {
-  background-color: #171919;
+  background-color: #01092B;
 }
 
 .accent-3 {
@@ -74,5 +76,5 @@ body {
 }
 
 .accent-4 {
-  background-color: #008a8c;
+  background-color: #3F5D9C;
 }
